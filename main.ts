@@ -14,7 +14,6 @@ basic.clearScreen()
 
 input.onButtonPressed(Button.A, function () {
     // setup
-    sprite.delete()
     basic.clearScreen()
     sprite = game.createSprite(0, 0)
 
@@ -55,7 +54,6 @@ input.onButtonPressed(Button.A, function () {
 input.onButtonPressed(Button.B, function () {
 
     // setup
-    sprite.delete()
     basic.clearScreen()
     sprite = game.createSprite(0, 0)
 
