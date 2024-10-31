@@ -15,10 +15,10 @@ basic.clearScreen()
 input.onButtonPressed(Button.A, function () {
     // setup
     basic.clearScreen()
-    loopCounter = 0
     sprite = game.createSprite(0, 0)
 
     //right
+    loopCounter = 0
     while (loopCounter <= 5) {
         sprite.set(LedSpriteProperty.X, loopCounter)
         loopCounter = loopCounter + 1
