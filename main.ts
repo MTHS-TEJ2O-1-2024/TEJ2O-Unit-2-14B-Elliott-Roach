@@ -1,6 +1,6 @@
 /* Copyright (c) 2020 MTHS All rights reserved
  *
- * Created by: Elliott
+ * Created by: Elliott Roach
  * Created on: oct 2024
  * This program moves a sprite in a clockwise and conterclockwise direction
 */
