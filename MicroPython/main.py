@@ -13,12 +13,11 @@ display.clear()
 display.show(Image.HAPPY)
 
 while True:
-    if button_a.is_pressed():
+    if button_b.is_pressed():
         display.clear()
         display.set_pixel(create_sprite, 3, 3)
 
     loopCounter = 0
     while loopCounter <= 5:
-        display.set_pixel(create_sprite, loopCounter)
         loopCounter = loopCounter + 1
         sleep(2000)
