@@ -19,6 +19,6 @@ while True:
 
     loopCounter = 0
     while loopCounter <= 5:
-        display.set_pixel(create_sprite, 0, +1)
+        display.set_pixel(create_sprite, loopCounter)
         loopCounter = loopCounter + 1
         sleep(2000)
